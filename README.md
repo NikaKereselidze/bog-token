@@ -16,7 +16,7 @@ const bogToken = require("bog-token");
 
 const bog = new BogToken("client id", "client secret");
 
-const token = bog.getBOGToken();
+const [token, error] = bog.getBOGToken();
 ```
 
 ## List of functions
