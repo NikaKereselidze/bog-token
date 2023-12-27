@@ -12,7 +12,7 @@
 Initialize bog-token instance
 
 ```js
-const bogToken = require("bog-token");
+const BogToken = require("bog-token");
 
 const bog = new BogToken("client id", "client secret");
 
