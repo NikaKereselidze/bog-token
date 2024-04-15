@@ -1,6 +1,6 @@
 {
   "name": "bog-token",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library for retrieving and Bank of Georgia API token",
   "main": "index.js",
   "engine": {
