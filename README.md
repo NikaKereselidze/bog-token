@@ -14,9 +14,11 @@ Initialize bog-token instance
 ```js
 const BogToken = require("bog-token");
 
-const bog = new BogToken("client id", "client secret");
+const bog = new BogToken("client id", "client secret key");
 
-const [token, error] = bog.getBOGToken();
+(async function () {
+  const [token, error] = await bog.getBOGToken();
+})();
 ```
 
 ## List of functions
